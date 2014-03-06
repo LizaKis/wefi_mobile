@@ -1,0 +1,143 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+@font-face {
+  font-family: Myriadpro boldcond; 
+  src: url('../fonts/myriadpro-boldcond-webfont.eot');
+  src: url('../fonts/myriadpro-boldcond-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/myriadpro-boldcond-webfont.woff') format('woff'), 
+       url('../fonts/myriadpro-boldcond-webfont.ttf') format('truetype'), 
+       url('../fonts/myriadpro-boldcond-webfont.svg') format('svg');
+ }
+@font-face {
+  font-family: Myriadpro regular; 
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/MyriadPro-Regular.woff') format('woff'), 
+       url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+       url('../fonts/MyriadPro-Regular.svg') format('svg'); 
+}
+@font-face {
+  font-family: DS Digital; 
+  src: url('../fonts/ds-digital.eot');
+  src: url('../fonts/ds-digital.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ds-digital.woff') format('woff'), 
+       url('../fonts/ds-digital.ttf') format('truetype'),  
+       url('../fonts/ds-digital.svg') format('svg');
+} 
+@font-face {
+  font-family: Tahomawefi; 
+  src: url('../fonts/Tahoma.eot');
+  src: url('../fonts/Tahoma.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/tahoma.woff') format('woff'),  
+       url('../fonts/Tahoma.ttf') format('truetype'),
+       url('../fonts/Tahoma.svg') format('svg');
+} 
+
+.clear {
+  clear: both;
+}
+.main-container {
+  width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+  header {
+    height: 212px;
+    background: url('../images/header.png') no-repeat;
+    .header-wrapper {
+      height: 212px;
+      background: rgba(0, 0, 0, 0.5);
+      ul {
+        margin-left: 30px;
+        padding-top: 15px;
+        li {
+          float: left;
+          text-align: center;
+          a {
+            display: block;
+            padding-top: 130px;
+            font-size: 14px;
+            color: #fff;
+            width: 135px;
+            height: 154px;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Tahomawefi';
+            letter-spacing: 0px;
+            word-spacing: 2px;
+            word-wrap: normal;
+            white-space: nowrap;
+            line-height: 16px;
+          }
+          a:hover {
+            font-weight: bold;
+          }
+        }
+        li.first {
+          margin-right: 15px;
+          width: 128px;
+          height: 128px;
+          background: url("../images/sprite.png") no-repeat 5px 5px;
+        }
+        li.first:hover {
+          background-position: 5px -168px;
+        }
+        li.second {
+          margin-right: 15px;
+          width: 128px;
+          height: 128px;
+          background: url("../images/sprite.png") no-repeat 5px -1033px;
+        }
+        li.second:hover {
+          background-position: 5px -1206px;
+        }
+        li.third {
+          margin-right: 15px;
+          width: 128px;
+          height: 128px;
+          background: url("../images/sprite.png") no-repeat 5px -339px;
+        }
+        li.third:hover {
+          background-position: 5px -514px;
+        }
+        li.fourth {
+          width: 128px;
+          height: 128px;
+          background: url("../images/sprite.png") no-repeat 5px -687px;
+        }
+        li.fourth:hover {
+          background-position: 5px -860px;
+        }
+      }
+    }
+  }
+  .spots-wrapper {
+    padding-top: 35px;
+    padding-bottom: 30px;
+    #count-spots-value {
+      font-family: DS Digital;
+      font-size: 66px;
+      color: #84be33;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+    .title {
+      font-family: Myriadpro boldcond;
+      font-size: 20px;
+      color: #434343;
+      text-align: center;
+      padding-bottom: 15px;
+    }
+    .line {
+      background: url("../images/line.png") no-repeat;
+      height: 16px;
+      width: 579px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+}
