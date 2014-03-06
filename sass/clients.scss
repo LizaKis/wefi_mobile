@@ -37,6 +37,7 @@ img.center {
 
 img.header {
   margin: 0 auto;
+  width: 100%;
 }
 
 .row {
@@ -109,4 +110,98 @@ ul.orange {
 a {
   color: #165d7b;
   text-decoration: none;
+}
+
+.view-management {
+  padding-bottom: 72px;
+  margin: -9px auto;
+  .views-row-open{
+    padding-bottom: 0px !important;
+  }
+  .views-row{
+    clear: left;
+    margin-top: 18px;
+    padding-bottom: 10px;
+    background: url("../images/dividing_line.png") no-repeat 0px bottom;
+    position: relative;
+    .content {
+      display: table;
+    }
+  }
+  .views-field-field-manager-photo{
+    float: left;
+    img {
+      width: 85% !important;
+      height: auto !important;
+    }
+  }
+  .views-field-field-name{
+    float: left;
+    margin-right: 5px;
+  }
+  .views-field-field-link {
+    padding-bottom: 10px;
+    .field-content {
+      display: -webkit-box;
+    }
+    a {
+      text-decoration: none;
+      color: #055B7C;
+      font-family: Tahomawefi;
+      font-weight: bold;
+      font-size: 13px;
+      background: url('../images/linkedin.png') no-repeat 12px 0;
+    }
+    a:before {
+      content: '|';
+      padding-right: 32px;
+    }
+  }
+  .views-field-field-name, .views-field-field-second-name{
+    font-family: Myriadpro boldcond;
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 20px;
+    color: #424242;
+  }
+  .views-field-field-function{
+    font-family: Myriadpro boldcond;
+    color: #424242;
+    text-transform: uppercase;
+    font-size: 19px;
+    margin-top: 2px;
+  }
+  .views-field-body{
+    padding-bottom: 10px;
+    .field-content{
+      color: #424242;
+      font-family: Tahomawefi;
+      font-size: 13px;
+      margin-top: 9px; 
+      #content-summary {
+        clear: both;
+      }   
+      #content-body{
+        display: none;
+      }
+    }
+  }
+  .full-biography, .close-text{
+    font-family: Tahomawefi;
+    font-weight: bold;
+    color: #055b7c;
+    font-size: 13px;
+    cursor: pointer;
+    padding-right: 5px;
+  }
+  .close-text{
+    display: none;
+  }
+  .views-row-open .close-text{  
+    display: block;
+  }
+
+  .views-row-open .views-field-body{
+    padding-bottom: 5px;    
+  }
 }
