@@ -1,0 +1,113 @@
+@font-face {
+  font-family: Myriadpro boldcond;
+  src: url("../fonts/myriadpro-boldcond-webfont.eot");
+  src: url("../fonts/myriadpro-boldcond-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/myriadpro-boldcond-webfont.woff") format("woff"), url("../fonts/myriadpro-boldcond-webfont.ttf") format("truetype"), url("../fonts/myriadpro-boldcond-webfont.svg") format("svg");
+}
+
+@font-face {
+  font-family: Myriadpro regular;
+  src: url("../fonts/MyriadPro-Regular.eot");
+  src: url("../fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular.ttf") format("truetype"), url("../fonts/MyriadPro-Regular.svg") format("svg");
+}
+
+@font-face {
+  font-family: DS Digital;
+  src: url("../fonts/ds-digital.eot");
+  src: url("../fonts/ds-digital.eot?#iefix") format("embedded-opentype"), url("../fonts/ds-digital.woff") format("woff"), url("../fonts/ds-digital.ttf") format("truetype"), url("../fonts/ds-digital.svg") format("svg");
+}
+
+@font-face {
+  font-family: Tahomawefi;
+  src: url("../fonts/Tahoma.eot");
+  src: url("../fonts/Tahoma.eot?#iefix") format("embedded-opentype"), url("../fonts/tahoma.woff") format("woff"), url("../fonts/Tahoma.ttf") format("truetype"), url("../fonts/Tahoma.svg") format("svg");
+}
+
+/* line 34, ../sass/clients.scss */
+img.center {
+  margin: 0 auto;
+}
+
+/* line 38, ../sass/clients.scss */
+img.header {
+  margin: 0 auto;
+}
+
+/* line 42, ../sass/clients.scss */
+.row {
+  margin: 0;
+}
+
+/* line 46, ../sass/clients.scss */
+.col {
+  padding: 0;
+}
+
+/* line 50, ../sass/clients.scss */
+header {
+  background: url("../images/header.png");
+}
+
+/* line 54, ../sass/clients.scss */
+.block {
+  padding: 0 10px;
+  font-family: Tahomawefi;
+  font-size: 13px;
+  color: #434343;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 63, ../sass/clients.scss */
+.title {
+  font-family: Myriadpro boldcond;
+  color: #3E3E3E;
+  margin-bottom: 10px;
+}
+
+/* line 69, ../sass/clients.scss */
+.title.big {
+  font-size: 35px;
+}
+
+/* line 73, ../sass/clients.scss */
+.title.middle {
+  font-size: 24px;
+}
+
+/* line 77, ../sass/clients.scss */
+.title.small {
+  font-size: 20px;
+}
+
+/* line 81, ../sass/clients.scss */
+ul {
+  padding: 0;
+}
+/* line 83, ../sass/clients.scss */
+ul li {
+  list-style-type: none;
+  padding-left: 30px;
+  line-height: 30px;
+  background: url("../images/arrow3.png") left no-repeat;
+}
+
+/* line 92, ../sass/clients.scss */
+ul.blue li {
+  background: url("../images/arrow3.png") left no-repeat;
+}
+
+/* line 98, ../sass/clients.scss */
+ul.green li {
+  background: url("../images/arrow.png") left no-repeat;
+}
+
+/* line 104, ../sass/clients.scss */
+ul.orange li {
+  background: url("../images/arrow2.png") left no-repeat;
+}
+
+/* line 109, ../sass/clients.scss */
+a {
+  color: #165d7b;
+  text-decoration: none;
+}
