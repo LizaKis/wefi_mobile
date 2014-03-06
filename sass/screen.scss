@@ -45,8 +45,10 @@
 body {
   display: inline-block;
 }
+
 .container-fluid {
-  //width: 640px;
+  padding: 0;
+  margin: 0;
   header {
     padding: 0;
     margin: 0;
@@ -58,11 +60,10 @@ body {
       padding: 0;
       margin: 0;
       ul {
-       // width: 550px;
+        width: 600px;
         margin-left: auto;
         margin-right: auto;
         padding-top: 25px;
-        clear: both;
         li {
           float: left;
           text-align: center;
@@ -90,41 +91,6 @@ body {
             margin: 0 auto;
           }
         }
-        /*li.first {
-          margin-right: 15px;
-          width: 128px;
-          height: 128px;
-          background: url("../images/sprite.png") no-repeat 5px 5px;
-        }
-        li.first:hover {
-          background-position: 5px -168px;
-        }
-        li.second {
-          margin-right: 15px;
-          width: 128px;
-          height: 128px;
-          background: url("../images/sprite.png") no-repeat 5px -1033px;
-        }
-        li.second:hover {
-          background-position: 5px -1206px;
-        }
-        li.third {
-          margin-right: 15px;
-          width: 128px;
-          height: 128px;
-          background: url("../images/sprite.png") no-repeat 5px -339px;
-        }
-        li.third:hover {
-          background-position: 5px -514px;
-        }
-        li.fourth {
-          width: 128px;
-          height: 128px;
-          background: url("../images/sprite.png") no-repeat 5px -687px;
-        }
-        li.fourth:hover {
-          background-position: 5px -860px;
-        }*/
       }
     }
   }
@@ -145,10 +111,172 @@ body {
       text-align: center;
       padding-bottom: 15px;
     }
-    .line {
-      height: 16px;
-      margin-right: auto;
-      margin-left: auto;
+  }
+  .line {
+    height: 16px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .ux {
+    border-top: 5px solid #79b927;
+    .mso-s {
+      float: left;
+      width: 50%;
+      .mso-pic {
+        float: right;
+        margin: 15px -30px 10px 10px;
+        position: relative;
+      }
+      .text {
+        padding-right: 15px;
+      }
     }
+    .pic-right {
+      float: right;
+      width: 50%;
+    }
+  }
+  .mno-s {
+    border-top: 5px solid #3db6e8;
+    .pic-left {
+      float: left;
+      margin-right: 15px;
+    }
+    .mno-pic {
+      position: absolute;
+      top: 10px;
+      left: 20px; 
+    }
+  }
+  .provider {
+    border-top: 5px solid #f34d00;
+    .left-container {
+      float: left;
+      width: 50%;
+      .provider-pic {
+        float: right;
+        margin: 15px -40px 10px 10px;
+        position: relative;
+        margin-top: 20%;
+      }
+    }
+    .pic-right {
+      width: 50%;
+      float: right;
+      margin-bottom: 50px;
+    }
+  }
+  // for all mso mno
+  .ux, .mno-s, .provider, .case-study {
+    padding: 0;
+    margin: 0;
+  }
+  .ux, .mno-s, .provider {
+    .text {
+      font-family: Tahomawefi;
+      font-size: 14px;
+      color: #434343;
+      line-height: 18px;
+      a.read-more {
+        display: block;
+        text-decoration: none;
+        color: #434343;
+        margin-top: 10px;
+        font-weight: bold;
+      }
+      a.read-more:after {
+        content: "";
+        display: inline-block;
+        overflow: auto;
+        width: 15px;
+        height: 17px;
+        background: url("../images/hp-arrow.png") no-repeat 0 3px;
+      }
+    }
+    .large-title {
+      font-family: Myriadpro boldcond;
+      font-size: 29px;
+      line-height: 30px;
+      padding-top: 10px;
+      padding-bottom: 5px;
+    }
+    .sub-title {
+      font-family: Myriadpro regular;
+      font-size: 15px;
+      letter-spacing: -1px;
+      padding-bottom: 10px;
+    }
+    .green {
+      color: #84be33;
+    }
+    .blue {
+      color: #3db6e8;
+    }
+    .orange {
+      color: #f34d00;
+    }
+  }
+  .case-study {
+    margin-top: 40px;
+    #st-title {
+      text-transform: uppercase;
+      font-size: 65px;
+      display: block;
+      text-decoration: none;
+      color: #434343;
+      font-family: Myriadpro boldcond;
+      text-decoration: none;
+    }
+    .st-title-link {
+      color: #434343;
+      font-family: Myriadpro boldcond;
+      text-decoration: none;
+      font-size: 30px;
+    }
+    .title {
+      font-family: Myriadpro boldcond;
+      font-size: 20px;
+      padding-bottom: 10px;
+    }
+    .title.green {
+      color: #80bf41;
+      margin-top: 40px;
+    }
+    .title.orange {
+      color: #f34d00;
+    }
+    .title.blue {
+      color: #41b6e6;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      li {
+        padding-left: 25px;
+        padding-bottom: 15px;
+      }
+    }
+    ul.green li {
+      background: url(../images/arrow.png) no-repeat;
+    }
+    ul.orange li {
+      background: url(../images/arrow2.png) no-repeat;
+    }
+    ul.blue li {
+      background: url(../images/arrow3.png) no-repeat;
+    }
+    .text {
+      font-family: Tahomawefi;
+      font-size: 14px;
+      color: #434343;
+    }
+    .text-border {
+      margin-bottom: 15px;
+      padding-bottom: 5px;
+      border-bottom: 1px dashed #acacac;
+    }
+  }
+  .case-study-big-pic {
+    padding-top: 20px;
   }
 }
