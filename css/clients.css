@@ -52,77 +52,104 @@ header {
 .block {
   padding: 0 10px;
   font-family: Tahomawefi;
-  font-size: 13px;
+  font-size: 14px;
   color: #434343;
   margin-top: 20px;
   margin-bottom: 20px;
+  line-height: 18px;
 }
 
-/* line 64, ../sass/clients.scss */
+/* line 65, ../sass/clients.scss */
+.middle-block {
+  position: relative;
+}
+
+/* line 69, ../sass/clients.scss */
+.no-padding {
+  padding: 0;
+}
+
+/* line 73, ../sass/clients.scss */
 .title {
   font-family: Myriadpro boldcond;
   color: #3E3E3E;
   margin-bottom: 10px;
 }
 
-/* line 70, ../sass/clients.scss */
+/* line 79, ../sass/clients.scss */
+.title.very-big {
+  font-size: 65px;
+}
+
+/* line 83, ../sass/clients.scss */
 .title.big {
   font-size: 35px;
 }
 
-/* line 74, ../sass/clients.scss */
+/* line 87, ../sass/clients.scss */
+.title.large {
+  font-size: 29px;
+}
+
+/* line 91, ../sass/clients.scss */
 .title.middle {
   font-size: 24px;
 }
 
-/* line 78, ../sass/clients.scss */
+/* line 95, ../sass/clients.scss */
 .title.small {
   font-size: 20px;
 }
 
-/* line 82, ../sass/clients.scss */
+/* line 99, ../sass/clients.scss */
+.title.tiny {
+  font-size: 15px;
+}
+
+/* line 103, ../sass/clients.scss */
 ul {
   padding: 0;
 }
-/* line 84, ../sass/clients.scss */
+/* line 105, ../sass/clients.scss */
 ul li {
   list-style-type: none;
   padding-left: 30px;
-  line-height: 30px;
+  line-height: 25px;
   background: url("../images/arrow3.png") left no-repeat;
+  background-position: 0 6px !important;
 }
 
-/* line 93, ../sass/clients.scss */
+/* line 115, ../sass/clients.scss */
 ul.blue li {
   background: url("../images/arrow3.png") left no-repeat;
 }
 
-/* line 99, ../sass/clients.scss */
+/* line 121, ../sass/clients.scss */
 ul.green li {
   background: url("../images/arrow.png") left no-repeat;
 }
 
-/* line 105, ../sass/clients.scss */
+/* line 127, ../sass/clients.scss */
 ul.orange li {
   background: url("../images/arrow2.png") left no-repeat;
 }
 
-/* line 110, ../sass/clients.scss */
+/* line 132, ../sass/clients.scss */
 a {
   color: #165d7b;
   text-decoration: none;
 }
 
-/* line 115, ../sass/clients.scss */
+/* line 137, ../sass/clients.scss */
 .view-management {
   padding-bottom: 72px;
   margin: -9px auto;
 }
-/* line 118, ../sass/clients.scss */
+/* line 140, ../sass/clients.scss */
 .view-management .views-row-open {
   padding-bottom: 0px !important;
 }
-/* line 121, ../sass/clients.scss */
+/* line 143, ../sass/clients.scss */
 .view-management .views-row {
   clear: left;
   margin-top: 18px;
@@ -130,33 +157,37 @@ a {
   background: url("../images/dividing_line.png") no-repeat 0px bottom;
   position: relative;
 }
-/* line 127, ../sass/clients.scss */
+/* line 149, ../sass/clients.scss */
 .view-management .views-row .content {
   display: table;
 }
-/* line 131, ../sass/clients.scss */
+/* line 152, ../sass/clients.scss */
+.view-management .views-row .contextual-links-region {
+  display: none;
+}
+/* line 156, ../sass/clients.scss */
 .view-management .views-field-field-manager-photo {
   float: left;
 }
-/* line 133, ../sass/clients.scss */
+/* line 158, ../sass/clients.scss */
 .view-management .views-field-field-manager-photo img {
   width: 85% !important;
   height: auto !important;
 }
-/* line 138, ../sass/clients.scss */
+/* line 163, ../sass/clients.scss */
 .view-management .views-field-field-name {
   float: left;
   margin-right: 5px;
 }
-/* line 142, ../sass/clients.scss */
+/* line 167, ../sass/clients.scss */
 .view-management .views-field-field-link {
   padding-bottom: 10px;
 }
-/* line 144, ../sass/clients.scss */
+/* line 169, ../sass/clients.scss */
 .view-management .views-field-field-link .field-content {
   display: -webkit-box;
 }
-/* line 147, ../sass/clients.scss */
+/* line 172, ../sass/clients.scss */
 .view-management .views-field-field-link a {
   text-decoration: none;
   color: #055B7C;
@@ -165,12 +196,16 @@ a {
   font-size: 13px;
   background: url("../images/linkedin.png") no-repeat 12px 0;
 }
-/* line 155, ../sass/clients.scss */
+/* line 180, ../sass/clients.scss */
 .view-management .views-field-field-link a:before {
   content: '|';
   padding-right: 32px;
 }
-/* line 160, ../sass/clients.scss */
+/* line 185, ../sass/clients.scss */
+.view-management .views-row-open .views-field-field-link {
+  left: 150px;
+}
+/* line 188, ../sass/clients.scss */
 .view-management .views-field-field-name, .view-management .views-field-field-second-name {
   font-family: Myriadpro boldcond;
   font-size: 25px;
@@ -178,7 +213,7 @@ a {
   line-height: 20px;
   color: #424242;
 }
-/* line 167, ../sass/clients.scss */
+/* line 195, ../sass/clients.scss */
 .view-management .views-field-field-function {
   font-family: Myriadpro boldcond;
   color: #424242;
@@ -186,26 +221,26 @@ a {
   font-size: 19px;
   margin-top: 2px;
 }
-/* line 174, ../sass/clients.scss */
+/* line 202, ../sass/clients.scss */
 .view-management .views-field-body {
   padding-bottom: 10px;
 }
-/* line 176, ../sass/clients.scss */
+/* line 204, ../sass/clients.scss */
 .view-management .views-field-body .field-content {
   color: #424242;
   font-family: Tahomawefi;
   font-size: 13px;
   margin-top: 9px;
 }
-/* line 181, ../sass/clients.scss */
+/* line 209, ../sass/clients.scss */
 .view-management .views-field-body .field-content #content-summary {
   clear: both;
 }
-/* line 184, ../sass/clients.scss */
+/* line 212, ../sass/clients.scss */
 .view-management .views-field-body .field-content #content-body {
   display: none;
 }
-/* line 189, ../sass/clients.scss */
+/* line 217, ../sass/clients.scss */
 .view-management .full-biography, .view-management .close-text {
   font-family: Tahomawefi;
   font-weight: bold;
@@ -214,15 +249,15 @@ a {
   cursor: pointer;
   padding-right: 5px;
 }
-/* line 197, ../sass/clients.scss */
+/* line 225, ../sass/clients.scss */
 .view-management .close-text {
   display: none;
 }
-/* line 200, ../sass/clients.scss */
+/* line 228, ../sass/clients.scss */
 .view-management .views-row-open .close-text {
   display: block;
 }
-/* line 204, ../sass/clients.scss */
+/* line 232, ../sass/clients.scss */
 .view-management .views-row-open .views-field-body {
   padding-bottom: 5px;
 }
