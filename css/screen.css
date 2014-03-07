@@ -280,21 +280,26 @@ body {
   margin: 0;
   border: 0;
   background-color: #fff;
+  display: inline-block;
 }
-/* line 185, ../sass/screen.scss */
-.row .navbar .navbar-collapse {
-  border: 0;
+/* line 186, ../sass/screen.scss */
+.row .navbar .container-fluid {
+  float: left;
 }
 /* line 188, ../sass/screen.scss */
-.row .navbar .navbar-collapse .navbar-right {
-  margin-top: 15px;
+.row .navbar .container-fluid .navbar-collapse {
+  border: 0;
 }
 /* line 190, ../sass/screen.scss */
-.row .navbar .navbar-collapse .navbar-right li {
-  margin-right: 30px;
+.row .navbar .container-fluid .navbar-collapse .navbar-nav {
+  margin-top: 15px;
 }
 /* line 192, ../sass/screen.scss */
-.row .navbar .navbar-collapse .navbar-right li a {
+.row .navbar .container-fluid .navbar-collapse .navbar-nav li {
+  margin-right: 30px;
+}
+/* line 194, ../sass/screen.scss */
+.row .navbar .container-fluid .navbar-collapse .navbar-nav li a {
   font-family: Myriadpro boldcond;
   font-size: 18px;
   color: #434343;
@@ -305,17 +310,21 @@ body {
   height: 57px;
   outline: none;
 }
-/* line 203, ../sass/screen.scss */
-.row .navbar .navbar-collapse .navbar-right li a:hover {
+/* line 205, ../sass/screen.scss */
+.row .navbar .container-fluid .navbar-collapse .navbar-nav li a:hover {
   border-bottom: 8px solid #444444 !important;
 }
+/* line 212, ../sass/screen.scss */
+.row .navbar .logo {
+  margin-top: 8px;
+}
 
-/* line 211, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 .case-study-big-pic {
   padding-top: 20px;
 }
 
-/* line 215, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 .case-study {
   padding-top: 40px !important;
 }
