@@ -70,6 +70,14 @@ header {
   padding: 0;
 }
 
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.padding-top {
+  padding-top: 10px;
+}
+
 .title {
   font-family: Myriadpro boldcond;
   color: #3E3E3E;
@@ -85,7 +93,7 @@ header {
 }
 
 .title.large {
-  font-size: 29px;
+  font-size: 28px;
 }
 
 .title.middle {
