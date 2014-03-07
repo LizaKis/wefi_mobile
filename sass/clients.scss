@@ -101,15 +101,18 @@ header {
 }
 
 .clients {
-  ul {
-    padding: 0;
-    li {
-      list-style-type: none;
-      padding-left: 30px;
-      line-height: 25px;
+  ul li {
       background: url("../images/arrow3.png") left no-repeat; 
-      background-position: 0 6px !important;
-    }
+  }
+}
+
+ul {
+  padding: 0;
+  li {
+    list-style-type: none;
+    padding-left: 30px;
+    line-height: 25px;
+    background-position: 0 6px !important;
   }
 }
 
