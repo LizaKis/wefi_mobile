@@ -380,3 +380,37 @@ body {
 .container-fluid .case-study-big-pic {
   padding-top: 20px;
 }
+/* line 282, ../sass/screen.scss */
+.container-fluid .navbar {
+  margin: 0;
+  border: 0;
+  background-color: #fff;
+}
+/* line 286, ../sass/screen.scss */
+.container-fluid .navbar .navbar-collapse {
+  border: 0;
+}
+/* line 289, ../sass/screen.scss */
+.container-fluid .navbar .navbar-collapse .navbar-right {
+  margin-top: 15px;
+}
+/* line 291, ../sass/screen.scss */
+.container-fluid .navbar .navbar-collapse .navbar-right li {
+  margin-right: 30px;
+}
+/* line 293, ../sass/screen.scss */
+.container-fluid .navbar .navbar-collapse .navbar-right li a {
+  font-family: Myriadpro boldcond;
+  font-size: 18px;
+  color: #434343;
+  word-wrap: normal;
+  white-space: nowrap;
+  padding: 24px 0 0 0;
+  margin: 0;
+  height: 57px;
+  outline: none;
+}
+/* line 304, ../sass/screen.scss */
+.container-fluid .navbar .navbar-collapse .navbar-right li a:hover {
+  border-bottom: 8px solid #444444 !important;
+}
