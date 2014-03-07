@@ -55,10 +55,19 @@ header {
 .block {
   padding: 0 10px;
   font-family: Tahomawefi;
-  font-size: 13px;
+  font-size: 14px;
   color: #434343;
   margin-top: 20px;
   margin-bottom: 20px;
+  line-height: 18px;
+}
+
+.middle-block {
+  position: relative;
+}
+
+.no-padding {
+  padding: 0;
 }
 
 .title {
@@ -67,8 +76,16 @@ header {
   margin-bottom: 10px;
 }
 
+.title.very-big {
+  font-size: 65px;
+}
+
 .title.big {
   font-size: 35px;
+}
+
+.title.large {
+  font-size: 29px;
 }
 
 .title.middle {
@@ -79,13 +96,20 @@ header {
   font-size: 20px;
 }
 
-ul {
-  padding: 0;
-  li {
-    list-style-type: none;
-    padding-left: 30px;
-    line-height: 30px;
-    background: url("../images/arrow3.png") left no-repeat; 
+.title.tiny {
+  font-size: 15px;
+}
+
+.clients {
+  ul {
+    padding: 0;
+    li {
+      list-style-type: none;
+      padding-left: 30px;
+      line-height: 25px;
+      background: url("../images/arrow3.png") left no-repeat; 
+      background-position: 0 6px !important;
+    }
   }
 }
 
@@ -127,6 +151,9 @@ a {
     .content {
       display: table;
     }
+    .contextual-links-region {
+      display: none;
+    }
   }
   .views-field-field-manager-photo{
     float: left;
@@ -156,6 +183,9 @@ a {
       content: '|';
       padding-right: 32px;
     }
+  }
+  .views-row-open .views-field-field-link {
+    left: 150px;    
   }
   .views-field-field-name, .views-field-field-second-name{
     font-family: Myriadpro boldcond;

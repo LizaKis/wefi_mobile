@@ -5,94 +5,48 @@
 
 @import "compass/reset";
 
-@font-face {
-  font-family: Myriadpro boldcond; 
-  src: url('../fonts/myriadpro-boldcond-webfont.eot');
-  src: url('../fonts/myriadpro-boldcond-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/myriadpro-boldcond-webfont.woff') format('woff'), 
-       url('../fonts/myriadpro-boldcond-webfont.ttf') format('truetype'), 
-       url('../fonts/myriadpro-boldcond-webfont.svg') format('svg');
- }
-@font-face {
-  font-family: Myriadpro regular; 
-  src: url('../fonts/MyriadPro-Regular.eot');
-  src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/MyriadPro-Regular.woff') format('woff'), 
-       url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
-       url('../fonts/MyriadPro-Regular.svg') format('svg'); 
+body {
+  display: inline-block;
 }
-@font-face {
-  font-family: DS Digital; 
-  src: url('../fonts/ds-digital.eot');
-  src: url('../fonts/ds-digital.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/ds-digital.woff') format('woff'), 
-       url('../fonts/ds-digital.ttf') format('truetype'),  
-       url('../fonts/ds-digital.svg') format('svg');
-} 
-@font-face {
-  font-family: Tahomawefi; 
-  src: url('../fonts/Tahoma.eot');
-  src: url('../fonts/Tahoma.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/tahoma.woff') format('woff'),  
-       url('../fonts/Tahoma.ttf') format('truetype'),
-       url('../fonts/Tahoma.svg') format('svg');
-} 
 
 .clear {
   clear: both;
 }
 
-body {
-  display: inline-block;
-}
-
-.container-fluid {
-  padding: 0;
-  margin: 0;
+.row {
   header {
     padding: 0;
     margin: 0;
     height: 212px;
-    background: url('../images/header.png');
-    .header-wrapper {
-      height: 212px;
-      background: rgba(0, 0, 0, 0.5);
-      padding: 0;
-      margin: 0;
-      ul {
-        width: 600px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 25px;
-        li {
-          float: left;
+    background: url('../images/header.png');    
+    .row {
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 25px;
+      .col {
+        text-align: center;
+        padding: 0 10px;
+        a {
+          display: block;
+          padding-top: 20px;
+          font-size: 14px;
+          color: #fff;
+          text-decoration: none;
+          font-weight: bold;
+          font-family: 'Tahomawefi';
+          letter-spacing: 0px;
+          word-spacing: 2px;
+          word-wrap: normal;
+          line-height: 16px;
           text-align: center;
-          a {
-            display: block;
-            padding-top: 20px;
-            font-size: 14px;
-            color: #fff;
-            min-width: 135px;
-            height: 154px;
-            text-decoration: none;
-            font-weight: bold;
-            font-family: 'Tahomawefi';
-            letter-spacing: 0px;
-            word-spacing: 2px;
-            word-wrap: normal;
-            white-space: nowrap;
-            line-height: 16px;
-          }
-          a:hover {
-            font-weight: bold;
-          }
-          img {
-            display: block;
-            margin: 0 auto;
-          }
+        }
+        img {
+          display: block;
+          margin: 0 auto;
         }
       }
     }
+    
   }
   .spots-wrapper {
     padding-top: 35px;
@@ -105,17 +59,9 @@ body {
       padding-bottom: 10px;
     }
     .title {
-      font-family: Myriadpro boldcond;
-      font-size: 20px;
-      color: #434343;
       text-align: center;
       padding-bottom: 15px;
     }
-  }
-  .line {
-    height: 16px;
-    margin-right: auto;
-    margin-left: auto;
   }
   .ux {
     border-top: 5px solid #79b927;
@@ -123,9 +69,10 @@ body {
       float: left;
       width: 50%;
       .mso-pic {
-        float: right;
-        margin: 15px -30px 10px 10px;
-        position: relative;
+        position: absolute;
+        left: 50%;
+        top: 20px;
+        width: 15%;
       }
       .text {
         padding-right: 15px;
@@ -133,7 +80,7 @@ body {
     }
     .pic-right {
       float: right;
-      width: 50%;
+      width: 40%;
     }
   }
   .mno-s {
@@ -141,11 +88,13 @@ body {
     .pic-left {
       float: left;
       margin-right: 15px;
+      width: 50%;
     }
     .mno-pic {
       position: absolute;
       top: 10px;
-      left: 20px; 
+      left: 20px;
+      width: 15%; 
     }
   }
   .provider {
@@ -154,57 +103,46 @@ body {
       float: left;
       width: 50%;
       .provider-pic {
-        float: right;
-        margin: 15px -40px 10px 10px;
-        position: relative;
-        margin-top: 20%;
+        position: absolute;
+        left: 50%;
+        top: 40px;
+        width: 15%;
       }
     }
     .pic-right {
-      width: 50%;
+      width: 40%;
       float: right;
       margin-bottom: 50px;
     }
   }
-  // for all mso mno
-  .ux, .mno-s, .provider, .case-study {
+  /* for all mso mno*/
+  .ux, .mno-s, .provider {
     padding: 0;
     margin: 0;
   }
   .ux, .mno-s, .provider {
     .text {
-      font-family: Tahomawefi;
-      font-size: 14px;
-      color: #434343;
-      line-height: 18px;
-      a.read-more {
-        display: block;
-        text-decoration: none;
-        color: #434343;
-        margin-top: 10px;
-        font-weight: bold;
-      }
-      a.read-more:after {
-        content: "";
-        display: inline-block;
-        overflow: auto;
-        width: 15px;
-        height: 17px;
-        background: url("../images/hp-arrow.png") no-repeat 0 3px;
-      }
+      padding: 0 10px;
     }
-    .large-title {
-      font-family: Myriadpro boldcond;
-      font-size: 29px;
+    a.read-more {
+      display: block;
+      text-decoration: none;
+      color: #434343;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    a.read-more:after {
+      content: "";
+      display: inline-block;
+      overflow: auto;
+      width: 15px;
+      height: 17px;
+      background: url("../images/hp-arrow.png") no-repeat 4px 4px;
+    }
+    .title.large {
       line-height: 30px;
       padding-top: 10px;
       padding-bottom: 5px;
-    }
-    .sub-title {
-      font-family: Myriadpro regular;
-      font-size: 15px;
-      letter-spacing: -1px;
-      padding-bottom: 10px;
     }
     .green {
       color: #84be33;
@@ -216,68 +154,29 @@ body {
       color: #f34d00;
     }
   }
-  .case-study {
-    margin-top: 40px;
-    #st-title {
-      text-transform: uppercase;
-      font-size: 65px;
-      display: block;
-      text-decoration: none;
-      color: #434343;
-      font-family: Myriadpro boldcond;
-      text-decoration: none;
-    }
-    .st-title-link {
-      color: #434343;
-      font-family: Myriadpro boldcond;
-      text-decoration: none;
-      font-size: 30px;
-    }
-    .title {
-      font-family: Myriadpro boldcond;
-      font-size: 20px;
-      padding-bottom: 10px;
-    }
-    .title.green {
-      color: #80bf41;
-      margin-top: 40px;
-    }
-    .title.orange {
-      color: #f34d00;
-    }
-    .title.blue {
-      color: #41b6e6;
-    }
-    ul {
-      list-style-type: none;
-      padding-left: 0;
-      li {
-        padding-left: 25px;
-        padding-bottom: 15px;
-      }
-    }
-    ul.green li {
-      background: url(../images/arrow.png) no-repeat;
-    }
-    ul.orange li {
-      background: url(../images/arrow2.png) no-repeat;
-    }
-    ul.blue li {
-      background: url(../images/arrow3.png) no-repeat;
-    }
-    .text {
-      font-family: Tahomawefi;
-      font-size: 14px;
-      color: #434343;
-    }
-    .text-border {
-      margin-bottom: 15px;
-      padding-bottom: 5px;
-      border-bottom: 1px dashed #acacac;
-    }
+  .title {
+    font-family: Myriadpro boldcond;
+    font-size: 20px;
+    padding-bottom: 10px;
   }
-  .case-study-big-pic {
-    padding-top: 20px;
+  .title.green {
+    color: #80bf41;
+  }
+  .title.orange {
+    color: #f34d00;
+  }
+  .title.blue {
+    color: #41b6e6;
+  }    
+  .text {
+    font-family: Tahomawefi;
+    font-size: 14px;
+    color: #434343;
+  }
+  .text-border {
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #acacac;
   }
   .navbar {
     margin: 0;
@@ -308,4 +207,11 @@ body {
       }
     }
   }
+}
+.case-study-big-pic {
+  padding-top: 20px;
+}
+
+.case-study {
+  padding-top: 40px !important;
 }
