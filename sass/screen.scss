@@ -5,39 +5,6 @@
 
 @import "compass/reset";
 
-@font-face {
-  font-family: Myriadpro boldcond; 
-  src: url('../fonts/myriadpro-boldcond-webfont.eot');
-  src: url('../fonts/myriadpro-boldcond-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/myriadpro-boldcond-webfont.woff') format('woff'), 
-       url('../fonts/myriadpro-boldcond-webfont.ttf') format('truetype'), 
-       url('../fonts/myriadpro-boldcond-webfont.svg') format('svg');
- }
-@font-face {
-  font-family: Myriadpro regular; 
-  src: url('../fonts/MyriadPro-Regular.eot');
-  src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/MyriadPro-Regular.woff') format('woff'), 
-       url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
-       url('../fonts/MyriadPro-Regular.svg') format('svg'); 
-}
-@font-face {
-  font-family: DS Digital; 
-  src: url('../fonts/ds-digital.eot');
-  src: url('../fonts/ds-digital.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/ds-digital.woff') format('woff'), 
-       url('../fonts/ds-digital.ttf') format('truetype'),  
-       url('../fonts/ds-digital.svg') format('svg');
-} 
-@font-face {
-  font-family: Tahomawefi; 
-  src: url('../fonts/Tahoma.eot');
-  src: url('../fonts/Tahoma.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/tahoma.woff') format('woff'),  
-       url('../fonts/Tahoma.ttf') format('truetype'),
-       url('../fonts/Tahoma.svg') format('svg');
-} 
-
 body {
   display: inline-block;
 }
@@ -210,6 +177,41 @@ body {
     margin-bottom: 15px;
     padding-bottom: 5px;
     border-bottom: 1px dashed #acacac;
+  }
+  .navbar {
+    margin: 0;
+    border: 0;
+    background-color: #fff;
+    display: inline-block;
+    .container-fluid {
+      float: left;
+      .navbar-collapse {
+        border: 0;
+        .navbar-nav {
+          margin-top: 15px;
+          li {
+            margin-right: 30px;
+            a {
+              font-family: Myriadpro boldcond;
+              font-size: 18px;
+              color: #434343;
+              word-wrap: normal;
+              white-space: nowrap;
+              padding: 24px 0 0 0;
+              margin: 0;
+              height: 57px;
+              outline: none;
+            }
+            a:hover {
+              border-bottom: 8px solid #444444 !important;
+            }
+          }
+        }
+      }
+    }
+    .logo {
+      margin-top: 8px;
+    }
   }
 }
 .case-study-big-pic {

@@ -58,7 +58,7 @@ header {
   font-size: 14px;
   color: #434343;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
   line-height: 18px;
 }
 
@@ -108,13 +108,18 @@ header {
   font-size: 15px;
 }
 
+.clients {
+  ul li {
+      background: url("../images/arrow3.png") left no-repeat; 
+  }
+}
+
 ul {
   padding: 0;
   li {
     list-style-type: none;
     padding-left: 30px;
     line-height: 25px;
-    background: url("../images/arrow3.png") left no-repeat; 
     background-position: 0 6px !important;
   }
 }
