@@ -1,0 +1,84 @@
+/*======App page======= */
+/* line 2, ../sass/app.sass */
+.title.big {
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+/* line 5, ../sass/app.sass */
+p.first {
+  margin-bottom: 20px;
+}
+
+/* line 7, ../sass/app.sass */
+.android {
+  margin-top: 30px;
+  padding-bottom: 25px;
+  border-bottom: 1px dashed #acacac;
+}
+/* line 11, ../sass/app.sass */
+.android .title {
+  background: url("../images/arrow3.png") no-repeat 5px;
+}
+/* line 13, ../sass/app.sass */
+.android .title a {
+  color: #3db6e8;
+  text-decoration: none;
+}
+
+/* line 16, ../sass/app.sass */
+.pc-ne {
+  margin-top: 30px;
+  padding-bottom: 25px;
+  border-bottom: 1px dashed #acacac;
+}
+/* line 20, ../sass/app.sass */
+.pc-ne .title {
+  background: url("../images/arrow.png") no-repeat 5px;
+}
+/* line 22, ../sass/app.sass */
+.pc-ne .title a {
+  color: #84be33;
+  text-decoration: none;
+}
+
+/* line 25, ../sass/app.sass */
+.symbian {
+  margin-top: 30px;
+  padding-bottom: 25px;
+  border-bottom: 1px dashed #acacac;
+}
+/* line 29, ../sass/app.sass */
+.symbian .title {
+  background: url("../images/arrow2.png") no-repeat 5px;
+}
+/* line 31, ../sass/app.sass */
+.symbian .title a {
+  color: #f34d00;
+  text-decoration: none;
+}
+
+/* line 35, ../sass/app.sass */
+.android .title, .pc-ne .title, .symbian .title {
+  padding-left: 30px;
+  margin-bottom: 10px;
+  font-family: Myriadpro boldcond;
+  font-size: 25px;
+}
+
+/* line 40, ../sass/app.sass */
+.comment {
+  margin-top: 10px;
+  font-family: Tahoma Regular;
+  font-size: 14px;
+  font-style: oblique;
+  color: #989898;
+}
+
+/* line 46, ../sass/app.sass */
+h2 {
+  font-family: Myriadpro boldcond;
+  font-size: 40px;
+  color: #3e3e3e;
+  margin-top: 40px;
+}
