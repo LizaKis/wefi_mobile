@@ -58,7 +58,7 @@ header {
   font-size: 14px;
   color: #434343;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
   line-height: 18px;
 }
 
@@ -68,6 +68,14 @@ header {
 
 .no-padding {
   padding: 0;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.padding-top {
+  padding-top: 10px;
 }
 
 .title {
@@ -85,7 +93,7 @@ header {
 }
 
 .title.large {
-  font-size: 29px;
+  font-size: 28px;
 }
 
 .title.middle {
