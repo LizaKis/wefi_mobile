@@ -26,5 +26,13 @@
       $(this).prev().css('display','block');
     });
 
+    $("#main-menu").mmenu({}, { selectedClass : "Selected" });
+
+    /*var obj = $('#main-menu ul li a');
+    for (var i = 0; i < obj.length; i++) {
+      if ( obj.eq(i).attr('href') == )
+      obj.eq(i).;
+    }*/
+
   });
 })(jQuery);
