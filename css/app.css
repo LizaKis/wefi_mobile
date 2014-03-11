@@ -112,7 +112,7 @@ h2 {
 }
 /* line 68, ../sass/app.sass */
 .contact ul {
-  background: url("../../images/arrow3.png") 0 3px no-repeat;
+  background: url("../images/arrow3.png") 0 3px no-repeat;
   padding-bottom: 20px;
   padding-left: 0;
 }
@@ -154,7 +154,7 @@ h2 {
 }
 /* line 96, ../sass/app.sass */
 .contact .column-2 .ul-title {
-  background: url("../../images/arrow3.png") 0 0 no-repeat;
+  background: url("../images/arrow3.png") 0 0 no-repeat;
   padding-top: 1px;
 }
 /* line 99, ../sass/app.sass */
