@@ -20,12 +20,14 @@ body {
     background: url('../images/header.png');    
     .row {
       margin: 0 auto;
-      .col {
+      .col-text {
+        padding: 15px;
+        line-height: 26px;
         color: white;
         font-family: Myriadpro regular;        
         .middle-caps {
           font-family: Myriadpro boldcond, sans-serif;
-          font-size: 34px;
+          font-size: 24px;
           margin-top: -4px;
           margin-bottom: 3px;
           word-spacing: -1px;
@@ -33,23 +35,21 @@ body {
         }
         .large-caps {
           font-family: Myriadpro boldcond, sans-serif;
-          font-size: 80px;
-          margin-top: -32px;
-          margin-bottom: -19px;
+          font-size: 66px;
+          margin-top: 16px;
+          margin-bottom: 12px;
         }
         .small-font {
-          font-size: 17px;
           padding-bottom: 15px;
           word-spacing: 0px;
         }
         .middle-font {
           font-family: Myriadpro boldcond, sans-serif;
           font-size: 28px;
-          margin-top: -11px;
-          margin-bottom: 13px;
+          margin-top: -16px;
           word-spacing: 2px;
         }
-      }
+      }      
     }    
   }
   .spots-wrapper {

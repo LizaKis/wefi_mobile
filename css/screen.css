@@ -92,38 +92,38 @@ body {
   margin: 0 auto;
 }
 /* line 23, ../sass/screen.scss */
-.row header .row .col {
+.row header .row .col-text {
+  padding: 15px;
+  line-height: 26px;
   color: white;
   font-family: Myriadpro regular;
 }
-/* line 26, ../sass/screen.scss */
-.row header .row .col .middle-caps {
+/* line 28, ../sass/screen.scss */
+.row header .row .col-text .middle-caps {
   font-family: Myriadpro boldcond, sans-serif;
-  font-size: 34px;
+  font-size: 24px;
   margin-top: -4px;
   margin-bottom: 3px;
   word-spacing: -1px;
   margin-left: -2px;
 }
-/* line 34, ../sass/screen.scss */
-.row header .row .col .large-caps {
+/* line 36, ../sass/screen.scss */
+.row header .row .col-text .large-caps {
   font-family: Myriadpro boldcond, sans-serif;
-  font-size: 80px;
-  margin-top: -32px;
-  margin-bottom: -19px;
+  font-size: 66px;
+  margin-top: 16px;
+  margin-bottom: 12px;
 }
-/* line 40, ../sass/screen.scss */
-.row header .row .col .small-font {
-  font-size: 17px;
+/* line 42, ../sass/screen.scss */
+.row header .row .col-text .small-font {
   padding-bottom: 15px;
   word-spacing: 0px;
 }
-/* line 45, ../sass/screen.scss */
-.row header .row .col .middle-font {
+/* line 46, ../sass/screen.scss */
+.row header .row .col-text .middle-font {
   font-family: Myriadpro boldcond, sans-serif;
   font-size: 28px;
-  margin-top: -11px;
-  margin-bottom: 13px;
+  margin-top: -16px;
   word-spacing: 2px;
 }
 /* line 55, ../sass/screen.scss */
