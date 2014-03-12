@@ -67,7 +67,7 @@ header {
 }
 
 .no-padding {
-  padding: 0;
+  padding: 0 !important;
 }
 
 .no-margin-bottom {
@@ -82,6 +82,12 @@ header {
   font-family: Myriadpro boldcond;
   color: #3E3E3E;
   margin-bottom: 10px;
+  a {
+    background: url("../images/arrow3.png") no-repeat 0 4px;
+    color: #3db6e8;
+    text-decoration: none;
+    padding-left: 25px;
+  }
 }
 
 .title.very-big {
@@ -108,19 +114,23 @@ header {
   font-size: 15px;
 }
 
-.clients {
-  ul li {
-      background: url("../images/arrow3.png") left no-repeat; 
+.title.green {
+  a {
+    background: url("../images/arrow.png") no-repeat 0 4px;
+    color: #84be33;
   }
 }
 
-ul {
-  padding: 0;
-  li {
-    list-style-type: none;
-    padding-left: 30px;
-    line-height: 25px;
-    background-position: 0 6px !important;
+.row {
+  ul {
+    padding: 0;
+    li {
+      list-style-type: none;
+      padding-left: 30px;
+      line-height: 25px;
+      background: url("../images/arrow3.png") left no-repeat; 
+      background-position: 0 6px !important;
+    }
   }
 }
 
@@ -245,4 +255,44 @@ a {
   .views-row-open .views-field-body{
     padding-bottom: 5px;    
   }
+}
+
+.column-1 {
+  padding-right: 30px;
+  border-right: 1px dashed #a8a8a8;
+  .border-line { 
+    border-bottom: 1px dashed #a8a8a8;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  ul {
+    padding-bottom: 15px;
+    li {
+      line-height: 22px;
+    }
+  }
+}
+
+.column-2 {
+  padding-left: 20px;
+  ul {
+    padding-bottom: 15px;
+    li {
+      line-height: 22px;
+    }
+  }
+}
+
+.comment {
+  margin-top: 10px;
+  font-family: Tahoma Regular;
+  font-size: 14px;
+  font-style: oblique;
+  color: #989898;
+}
+
+.border-bottom {
+  margin-top: 30px;
+  padding-bottom: 25px;
+  border-bottom: 1px dashed #acacac;
 }

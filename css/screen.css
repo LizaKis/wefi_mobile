@@ -1,104 +1,35 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
-/* line 22, ../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html {
-  line-height: 1;
-}
-
-/* line 24, ../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 26, ../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 28, ../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 30, ../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 103, ../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-/* line 32, ../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
-
-/* line 116, ../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
-  display: block;
-}
-
-/* line 8, ../sass/screen.scss */
+/* line 1, ../sass/screen.scss */
 body {
   display: inline-block;
 }
 
-/* line 12, ../sass/screen.scss */
+/* line 5, ../sass/screen.scss */
 .clear {
   clear: both;
 }
 
-/* line 16, ../sass/screen.scss */
+/* line 9, ../sass/screen.scss */
 .row {
   /* for all mso mno*/
 }
-/* line 17, ../sass/screen.scss */
+/* line 10, ../sass/screen.scss */
 .row header {
   padding: 0;
   margin: 0;
   background: url("../images/header.png");
 }
-/* line 21, ../sass/screen.scss */
+/* line 14, ../sass/screen.scss */
 .row header .row {
   margin: 0 auto;
 }
-/* line 23, ../sass/screen.scss */
+/* line 16, ../sass/screen.scss */
 .row header .row .col-text {
   padding: 15px;
   line-height: 26px;
   color: white;
   font-family: Myriadpro regular;
 }
-/* line 28, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 .row header .row .col-text .middle-caps {
   font-family: Myriadpro boldcond, sans-serif;
   font-size: 24px;
@@ -107,31 +38,31 @@ body {
   word-spacing: -1px;
   margin-left: -2px;
 }
-/* line 36, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 .row header .row .col-text .large-caps {
   font-family: Myriadpro boldcond, sans-serif;
   font-size: 66px;
   margin-top: 16px;
   margin-bottom: 12px;
 }
-/* line 42, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 .row header .row .col-text .small-font {
   padding-bottom: 15px;
   word-spacing: 0px;
 }
-/* line 46, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 .row header .row .col-text .middle-font {
   font-family: Myriadpro boldcond, sans-serif;
   font-size: 28px;
   margin-top: -16px;
   word-spacing: 2px;
 }
-/* line 55, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 .row .spots-wrapper {
   padding-top: 35px;
   padding-bottom: 30px;
 }
-/* line 58, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 .row .spots-wrapper #count-spots-value {
   font-family: DS Digital;
   font-size: 66px;
@@ -139,85 +70,85 @@ body {
   text-align: center;
   padding-bottom: 10px;
 }
-/* line 65, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 .row .spots-wrapper .title {
   text-align: center;
   padding-bottom: 15px;
 }
-/* line 70, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .row .ux {
   border-top: 5px solid #79b927;
 }
-/* line 72, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .row .ux .mso-s {
   float: left;
   width: 58%;
 }
-/* line 75, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 .row .ux .mso-s .mso-pic {
   position: absolute;
   left: 50%;
   top: 15px;
   width: 14%;
 }
-/* line 81, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 .row .ux .mso-s .text {
   padding-right: 15px;
 }
-/* line 85, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 .row .ux .pic-right {
   float: right;
   width: 42%;
 }
-/* line 90, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 .row .mno-s {
   border-top: 5px solid #3db6e8;
 }
-/* line 92, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .row .mno-s .pic-left {
   float: left;
   margin-right: 15px;
   width: 50%;
 }
-/* line 97, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 .row .mno-s .mno-pic {
   position: absolute;
   top: 10px;
   left: 20px;
   width: 15%;
 }
-/* line 104, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 .row .provider {
   border-top: 5px solid #f34d00;
 }
-/* line 106, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 .row .provider .left-container {
   float: left;
   width: 60%;
 }
-/* line 109, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .row .provider .left-container .provider-pic {
   position: absolute;
   left: 50%;
   top: 40px;
   width: 15%;
 }
-/* line 116, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 .row .provider .pic-right {
   width: 40%;
   float: right;
   margin-bottom: 50px;
 }
-/* line 123, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 .row .ux, .row .mno-s, .row .provider {
   padding: 0;
   margin: 0;
 }
-/* line 128, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 .row .ux .text, .row .mno-s .text, .row .provider .text {
   padding: 0 10px;
 }
-/* line 131, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 .row .ux a.read-more, .row .mno-s a.read-more, .row .provider a.read-more {
   display: block;
   text-decoration: none;
@@ -225,7 +156,7 @@ body {
   margin-top: 5px;
   font-weight: bold;
 }
-/* line 138, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 .row .ux a.read-more:after, .row .mno-s a.read-more:after, .row .provider a.read-more:after {
   content: "";
   display: inline-block;
@@ -234,55 +165,55 @@ body {
   height: 17px;
   background: url("../images/hp-arrow.png") no-repeat 4px 4px;
 }
-/* line 146, ../sass/screen.scss */
+/* line 139, ../sass/screen.scss */
 .row .ux .title.large, .row .mno-s .title.large, .row .provider .title.large {
   line-height: 30px;
   padding-top: 10px;
   padding-bottom: 5px;
 }
-/* line 151, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
 .row .ux .green, .row .mno-s .green, .row .provider .green {
   color: #84be33;
 }
-/* line 154, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 .row .ux .blue, .row .mno-s .blue, .row .provider .blue {
   color: #3db6e8;
 }
-/* line 157, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 .row .ux .orange, .row .mno-s .orange, .row .provider .orange {
   color: #f34d00;
 }
-/* line 161, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 .row .title {
   font-family: Myriadpro boldcond;
   font-size: 20px;
   padding-bottom: 10px;
 }
-/* line 166, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 .row .title.green {
   color: #80bf41;
 }
-/* line 169, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 .row .title.orange {
   color: #f34d00;
 }
-/* line 172, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 .row .title.blue {
   color: #41b6e6;
 }
-/* line 175, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 .row .text {
   font-family: Tahomawefi;
   font-size: 14px;
   color: #434343;
 }
-/* line 180, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 .row .text-border {
   margin-bottom: 15px;
   padding-bottom: 5px;
   border-bottom: 1px dashed #acacac;
 }
-/* line 185, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 .row .navbar {
   margin: 0;
   border: 0;
@@ -290,17 +221,17 @@ body {
   display: inline-block;
 }
 
-/* line 192, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 .case-study-big-pic {
   padding-top: 20px;
 }
 
-/* line 196, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 .case-study {
   padding-top: 40px !important;
 }
 
-/* line 201, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 #header a {
   background: center center no-repeat transparent;
   background-image: url(../images/menu.jpg);
@@ -310,28 +241,28 @@ body {
   float: left;
   margin-top: -5px;
 }
-/* line 210, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
 #header .logo {
   margin: 14px auto;
 }
 
-/* line 215, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 #main-menu {
   font-family: Myriadpro boldcond;
   color: white;
   width: 50%;
 }
-/* line 221, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 #main-menu ul li a {
   font-size: 22px;
 }
-/* line 226, ../sass/screen.scss */
+/* line 219, ../sass/screen.scss */
 #main-menu ul .mm-selected a {
   color: #40b4e3;
   background: black;
 }
 
-/* line 234, ../sass/screen.scss */
+/* line 227, ../sass/screen.scss */
 html.mm-opening .mm-page {
   left: 50% !important;
 }
