@@ -26,5 +26,25 @@
       $(this).prev().css('display','block');
     });
 
+    $("#main-menu").mmenu();
+
+    var is_open = false;
+    $("#header .open-menu").click(function() {
+      if (is_open) {
+        $("#main-menu").trigger("close");
+      }
+      else {
+        $("#main-menu").trigger("open");
+      }
+      is_open = !is_open;
+      
+    });
+
+    /*var obj = $('#main-menu ul li a');
+    for (var i = 0; i < obj.length; i++) {
+      if ( obj.eq(i).attr('href') == )
+      obj.eq(i).;
+    }*/
+
   });
 })(jQuery);
