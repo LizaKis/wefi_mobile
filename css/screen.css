@@ -92,7 +92,7 @@ body {
 }
 /* line 75, ../sass/screen.scss */
 .row .ux .text, .row .mno-s .text, .row .provider .text {
-  margin-top: -40px;
+  margin-top: -20px;
 }
 /* line 78, ../sass/screen.scss */
 .row .ux img, .row .mno-s img, .row .provider img {
