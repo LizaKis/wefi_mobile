@@ -95,45 +95,46 @@ header {
 
 /* line 93, ../sass/clients.scss */
 .title.very-big {
-  font-size: 65px;
+  font-size: 63px;
 }
 
 /* line 97, ../sass/clients.scss */
 .title.big {
   font-size: 35px;
+  line-height: 34px;
 }
 
-/* line 101, ../sass/clients.scss */
+/* line 102, ../sass/clients.scss */
 .title.large {
   font-size: 28px;
 }
 
-/* line 105, ../sass/clients.scss */
+/* line 106, ../sass/clients.scss */
 .title.middle {
   font-size: 24px;
 }
 
-/* line 109, ../sass/clients.scss */
+/* line 110, ../sass/clients.scss */
 .title.small {
   font-size: 20px;
 }
 
-/* line 113, ../sass/clients.scss */
+/* line 114, ../sass/clients.scss */
 .title.tiny {
   font-size: 15px;
 }
 
-/* line 118, ../sass/clients.scss */
+/* line 119, ../sass/clients.scss */
 .title.green a {
   background: url("../images/arrow.png") no-repeat 0 4px;
   color: #84be33;
 }
 
-/* line 125, ../sass/clients.scss */
+/* line 126, ../sass/clients.scss */
 .row ul {
   padding: 0;
 }
-/* line 127, ../sass/clients.scss */
+/* line 128, ../sass/clients.scss */
 .row ul li {
   list-style-type: none;
   padding-left: 30px;
@@ -142,37 +143,37 @@ header {
   background-position: 0 6px !important;
 }
 
-/* line 138, ../sass/clients.scss */
+/* line 139, ../sass/clients.scss */
 ul.blue li {
   background: url("../images/arrow3.png") left no-repeat;
 }
 
-/* line 144, ../sass/clients.scss */
+/* line 145, ../sass/clients.scss */
 ul.green li {
   background: url("../images/arrow.png") left no-repeat;
 }
 
-/* line 150, ../sass/clients.scss */
+/* line 151, ../sass/clients.scss */
 ul.orange li {
   background: url("../images/arrow2.png") left no-repeat;
 }
 
-/* line 155, ../sass/clients.scss */
+/* line 156, ../sass/clients.scss */
 a {
   color: #165d7b;
   text-decoration: none;
 }
 
-/* line 160, ../sass/clients.scss */
+/* line 161, ../sass/clients.scss */
 .view-management {
   padding-bottom: 72px;
   margin: -9px auto;
 }
-/* line 163, ../sass/clients.scss */
+/* line 164, ../sass/clients.scss */
 .view-management .views-row-open {
   padding-bottom: 0px !important;
 }
-/* line 166, ../sass/clients.scss */
+/* line 167, ../sass/clients.scss */
 .view-management .views-row {
   clear: left;
   margin-top: 18px;
@@ -180,37 +181,41 @@ a {
   background: url("../images/dividing_line.png") no-repeat 0px bottom;
   position: relative;
 }
-/* line 172, ../sass/clients.scss */
+/* line 173, ../sass/clients.scss */
 .view-management .views-row .content {
   display: table;
 }
-/* line 175, ../sass/clients.scss */
+/* line 176, ../sass/clients.scss */
 .view-management .views-row .contextual-links-region {
   display: none;
 }
-/* line 179, ../sass/clients.scss */
+/* line 180, ../sass/clients.scss */
 .view-management .views-field-field-manager-photo {
   float: left;
 }
-/* line 181, ../sass/clients.scss */
+/* line 182, ../sass/clients.scss */
 .view-management .views-field-field-manager-photo img {
   width: 85% !important;
   height: auto !important;
 }
-/* line 186, ../sass/clients.scss */
+/* line 187, ../sass/clients.scss */
 .view-management .views-field-field-name {
   float: left;
   margin-right: 5px;
 }
-/* line 190, ../sass/clients.scss */
+/* line 191, ../sass/clients.scss */
 .view-management .views-field-field-link {
   padding-bottom: 10px;
 }
-/* line 192, ../sass/clients.scss */
+/* line 193, ../sass/clients.scss */
 .view-management .views-field-field-link .field-content {
-  display: -webkit-box;
+  display: block;
 }
-/* line 195, ../sass/clients.scss */
+/* line 196, ../sass/clients.scss */
+.view-management .views-field-field-link .field-content .full-biography {
+  float: left;
+}
+/* line 200, ../sass/clients.scss */
 .view-management .views-field-field-link a {
   text-decoration: none;
   color: #055B7C;
@@ -219,16 +224,16 @@ a {
   font-size: 13px;
   background: url("../images/linkedin.png") no-repeat 12px 0;
 }
-/* line 203, ../sass/clients.scss */
+/* line 208, ../sass/clients.scss */
 .view-management .views-field-field-link a:before {
   content: '|';
   padding-right: 32px;
 }
-/* line 208, ../sass/clients.scss */
+/* line 213, ../sass/clients.scss */
 .view-management .views-row-open .views-field-field-link {
   left: 150px;
 }
-/* line 211, ../sass/clients.scss */
+/* line 216, ../sass/clients.scss */
 .view-management .views-field-field-name, .view-management .views-field-field-second-name {
   font-family: Myriadpro boldcond;
   font-size: 25px;
@@ -236,7 +241,7 @@ a {
   line-height: 20px;
   color: #424242;
 }
-/* line 218, ../sass/clients.scss */
+/* line 223, ../sass/clients.scss */
 .view-management .views-field-field-function {
   font-family: Myriadpro boldcond;
   color: #424242;
@@ -244,26 +249,26 @@ a {
   font-size: 19px;
   margin-top: 2px;
 }
-/* line 225, ../sass/clients.scss */
+/* line 230, ../sass/clients.scss */
 .view-management .views-field-body {
   padding-bottom: 10px;
 }
-/* line 227, ../sass/clients.scss */
+/* line 232, ../sass/clients.scss */
 .view-management .views-field-body .field-content {
   color: #424242;
   font-family: Tahomawefi;
   font-size: 13px;
   margin-top: 9px;
 }
-/* line 232, ../sass/clients.scss */
+/* line 237, ../sass/clients.scss */
 .view-management .views-field-body .field-content #content-summary {
   clear: both;
 }
-/* line 235, ../sass/clients.scss */
+/* line 240, ../sass/clients.scss */
 .view-management .views-field-body .field-content #content-body {
   display: none;
 }
-/* line 240, ../sass/clients.scss */
+/* line 245, ../sass/clients.scss */
 .view-management .full-biography, .view-management .close-text {
   font-family: Tahomawefi;
   font-weight: bold;
@@ -272,53 +277,53 @@ a {
   cursor: pointer;
   padding-right: 5px;
 }
-/* line 248, ../sass/clients.scss */
+/* line 253, ../sass/clients.scss */
 .view-management .close-text {
   display: none;
 }
-/* line 251, ../sass/clients.scss */
+/* line 256, ../sass/clients.scss */
 .view-management .views-row-open .close-text {
   display: block;
 }
-/* line 255, ../sass/clients.scss */
+/* line 260, ../sass/clients.scss */
 .view-management .views-row-open .views-field-body {
   padding-bottom: 5px;
 }
 
-/* line 260, ../sass/clients.scss */
+/* line 265, ../sass/clients.scss */
 .column-1 {
   padding-right: 30px;
   border-right: 1px dashed #a8a8a8;
 }
-/* line 263, ../sass/clients.scss */
+/* line 268, ../sass/clients.scss */
 .column-1 .border-line {
   border-bottom: 1px dashed #a8a8a8;
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
-/* line 268, ../sass/clients.scss */
+/* line 273, ../sass/clients.scss */
 .column-1 ul {
   padding-bottom: 15px;
 }
-/* line 270, ../sass/clients.scss */
+/* line 275, ../sass/clients.scss */
 .column-1 ul li {
   line-height: 22px;
 }
 
-/* line 276, ../sass/clients.scss */
+/* line 281, ../sass/clients.scss */
 .column-2 {
   padding-left: 20px;
 }
-/* line 278, ../sass/clients.scss */
+/* line 283, ../sass/clients.scss */
 .column-2 ul {
   padding-bottom: 15px;
 }
-/* line 280, ../sass/clients.scss */
+/* line 285, ../sass/clients.scss */
 .column-2 ul li {
   line-height: 22px;
 }
 
-/* line 286, ../sass/clients.scss */
+/* line 291, ../sass/clients.scss */
 .comment {
   margin-top: 10px;
   font-family: Tahoma Regular;
@@ -327,7 +332,7 @@ a {
   color: #989898;
 }
 
-/* line 294, ../sass/clients.scss */
+/* line 299, ../sass/clients.scss */
 .border-bottom {
   margin-top: 30px;
   padding-bottom: 25px;
