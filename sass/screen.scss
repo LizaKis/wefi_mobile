@@ -68,62 +68,16 @@ body {
       padding-bottom: 15px;
     }
   }
-  .ux {
-    border-top: 5px solid #79b927;
-    .mso-s {
-      float: left;
-      width: 58%;
-      .mso-pic {
-        position: absolute;
-        left: 50%;
-        top: 15px;
-        width: 14%;
-      }
-      .text {
-        padding-right: 15px;
-      }
-    }
-    .pic-right {
-      float: right;
-      width: 42%;
-    }
-  }
-  .mno-s {
-    border-top: 5px solid #3db6e8;
-    .pic-left {
-      float: left;
-      margin-right: 15px;
-      width: 50%;
-    }
-    .mno-pic {
-      position: absolute;
-      top: 10px;
-      left: 20px;
-      width: 15%; 
-    }
-  }
-  .provider {
-    border-top: 5px solid #f34d00;
-    .left-container {
-      float: left;
-      width: 60%;
-      .provider-pic {
-        position: absolute;
-        left: 50%;
-        top: 40px;
-        width: 15%;
-      }
-    }
-    .pic-right {
-      width: 40%;
-      float: right;
-      margin-bottom: 50px;
-    }
-  }
   /* for all mso mno*/
   .ux, .mno-s, .provider {
     padding: 0;
     margin: 0;
+    .text {
+      margin-top: -40px;
+    }
+    img {
+      padding-left: 10px;
+    }
   }
   .ux, .mno-s, .provider {
     .text {
@@ -133,8 +87,8 @@ body {
       display: block;
       text-decoration: none;
       color: #434343;
-      margin-top: 5px;
       font-weight: bold;
+      padding-bottom: 15px;
     }
     a.read-more:after {
       content: "";
