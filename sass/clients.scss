@@ -48,10 +48,6 @@ img.header {
   padding: 0;
 }
 
-header {
-  background: url('../images/header.png');  
-}
-
 .block {
   padding: 0 10px;
   font-family: Tahomawefi;
@@ -96,6 +92,7 @@ header {
 
 .title.big {
   font-size: 35px;
+  line-height: 34px;
 }
 
 .title.large {
@@ -190,7 +187,11 @@ a {
   .views-field-field-link {
     padding-bottom: 10px;
     .field-content {
-      display: -webkit-box;
+      //display: -webkit-box;
+      display: block;
+      .full-biography {
+        float: left;
+      }
     }
     a {
       text-decoration: none;

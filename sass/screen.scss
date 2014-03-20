@@ -5,7 +5,15 @@ body {
 .clear {
   clear: both;
 }
-
+.front {
+  header {
+    background: none;
+    img {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
 .row {
   header {
     padding: 0;
