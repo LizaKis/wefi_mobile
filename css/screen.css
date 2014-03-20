@@ -63,7 +63,7 @@ body {
 /* line 47, ../sass/screen.scss */
 .row header .row .col-text .middle-font {
   font-family: Myriadpro boldcond, sans-serif;
-  font-size: 28px;
+  font-size: 25px;
   margin-top: -16px;
   word-spacing: 2px;
 }
@@ -241,8 +241,8 @@ body {
   padding-top: 40px !important;
 }
 
-/* line 202, ../sass/screen.scss */
-#header a {
+/* line 194, ../sass/screen.scss */
+#header a.open-menu {
   background: center center no-repeat transparent;
   background-image: url(../images/menu.jpg);
   display: block;
@@ -265,14 +265,12 @@ body {
 /* line 222, ../sass/screen.scss */
 #main-menu ul li a {
   font-size: 22px;
+  text-transform: uppercase;
 }
-/* line 227, ../sass/screen.scss */
 #main-menu ul .mm-selected a {
   color: #40b4e3;
   background: black;
 }
-
-/* line 235, ../sass/screen.scss */
 html.mm-opening .mm-page {
   left: 50% !important;
 }

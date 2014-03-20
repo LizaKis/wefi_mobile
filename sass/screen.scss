@@ -46,11 +46,11 @@ body {
         }
         .middle-font {
           font-family: Myriadpro boldcond, sans-serif;
-          font-size: 28px;
+          font-size: 25px;
           margin-top: -16px;
           word-spacing: 2px;
         }
-      }      
+      }           
     }    
   }
   .spots-wrapper {
@@ -199,7 +199,7 @@ body {
 }
 
 #header {
-  a {
+  a.open-menu {
     background: center center no-repeat transparent;
     background-image: url(../images/menu.jpg);
     display: block;
@@ -221,6 +221,7 @@ body {
     li {
       a {
         font-size: 22px;
+        text-transform: uppercase;
       }
     }
     .mm-selected {
